@@ -10,7 +10,6 @@ app.config["DEBUG"] = True
 def hello_world():
 	return "Hello World"
 
-
 @app.route("/test/<search_query>")
 def search(search_query):
 	return search_query
